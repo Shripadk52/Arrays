@@ -1,0 +1,14 @@
+# Normalize all text files to LF in the repo
+* text=auto
+
+# Use LF endings for code, markdown, config
+*.c      text eol=lf
+*.cpp    text eol=lf
+*.h      text eol=lf
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+
+# Use CRLF for Windows-specific files
+*.bat    text eol=crlf
